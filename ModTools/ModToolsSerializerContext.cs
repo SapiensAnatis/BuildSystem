@@ -9,4 +9,5 @@ namespace ModTools;
 [JsonSerializable(typeof(IList<Banner>))]
 [JsonSerializable(typeof(Charas))]
 [JsonSerializable(typeof(Dragons))]
+[JsonSerializable(typeof(string[]))]
 internal sealed partial class ModToolsSerializerContext : JsonSerializerContext { }
